@@ -38,5 +38,5 @@ end
 
 def update_element_from_index(array, index_number, element)
 array.delete[index_number]
-array.add(element)
+array.insert(index_number, element)
 end
